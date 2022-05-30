@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.975 s <<< FAILURE! - in runner.TestRunner
+User add HP LP 3065 from Desktops tab to the cart(Desktops)  Time elapsed: 2.938 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.AddToCartButton2" is null
+
