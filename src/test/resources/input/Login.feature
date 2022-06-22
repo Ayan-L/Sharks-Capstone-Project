@@ -21,20 +21,5 @@ Scenario: login to Retail Website
    | Laila   | Ayan   | ayanlaila@gmail.com |1234567999|
    And User click on continue button
    Then User should see a message ‘Success: Your account has been successfully updated.’
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

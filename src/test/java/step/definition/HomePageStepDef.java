@@ -7,11 +7,11 @@ import core.Base;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import page.objects.HomePage;
-import page.objects.LoginPage;
+import page.objects.RetailPage;
 
 public class HomePageStepDef extends Base {
 	HomePage homePage = new HomePage();
-	LoginPage loginPage = new LoginPage();
+	RetailPage retailPage = new RetailPage();
 
 @When("User click on Currency")
 public void user_click_on_currency() {
